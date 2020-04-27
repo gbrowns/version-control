@@ -6,7 +6,7 @@
 
     //add an eventListener to the button
     button.addEventListener('click', () => {
-        
+
         //convert the value of input into a text
         let name = document.createTextNode(inputName);
 
@@ -14,6 +14,7 @@
 
         document.write(name);
     });
+    
     //expression
     let squareRoot = sqrt(num);
 })()
