@@ -1,5 +1,6 @@
 (function(num){
 
+    
     //declare variables
     let inputName = document.querySelector(".input1").nodeValue;
     let button = document.querySelector(".btn");
@@ -18,4 +19,7 @@
     //expression
     let squareRoot = Math.sqrt(num);
    console.log(squareRoot);
+
+})();
+
 })(25);
